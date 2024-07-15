@@ -1,1 +1,0 @@
-This section introduces how to customize each type of system heterogeneity in FLGo. Especially, different types of heterogeneity can be directly combined together in a Simulator to form a complex environment.

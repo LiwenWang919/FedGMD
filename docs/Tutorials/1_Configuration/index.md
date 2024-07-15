@@ -1,1 +1,0 @@
-This section introduces basic configurations in our framework (i.e. parameters of `flgo.init`).
