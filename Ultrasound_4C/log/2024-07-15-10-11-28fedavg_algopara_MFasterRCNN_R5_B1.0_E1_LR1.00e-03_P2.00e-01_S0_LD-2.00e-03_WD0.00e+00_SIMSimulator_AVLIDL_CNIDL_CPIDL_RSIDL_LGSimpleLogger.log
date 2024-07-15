@@ -1,0 +1,125 @@
+2024-07-15 10:11:28,898 fflow.py init [line:691] INFO PROCESS ID:	489433
+2024-07-15 10:11:28,899 fflow.py init [line:692] INFO Initializing devices: cuda:0 will be used for this running.
+2024-07-15 10:11:28,899 fflow.py init [line:695] INFO BENCHMARK:	flgo.benchmark.coco_detection_fetus
+2024-07-15 10:11:28,899 fflow.py init [line:696] INFO TASK:			./Ultrasound_4C
+2024-07-15 10:11:28,899 fflow.py init [line:697] INFO MODEL:		flgo.benchmark.coco_detection_fetus.model.FasterRCNN
+2024-07-15 10:11:28,899 fflow.py init [line:698] INFO ALGORITHM:	fedavg
+2024-07-15 10:11:29,211 fflow.py init [line:737] INFO SCENE:		horizontal FL with 1 <class 'flgo.algorithm.fedbase.BasicServer'>, 3 <class 'flgo.algorithm.fedbase.BasicClient'>
+2024-07-15 10:11:33,692 fflow.py init [line:754] INFO SIMULATOR:	<class 'flgo.simulator.default_simulator.Simulator'>
+2024-07-15 10:11:33,693 fflow.py init [line:767] INFO Ready to start.
+2024-07-15 10:11:33,698 fedbase.py run [line:242] INFO --------------Initial Evaluation--------------
+2024-07-15 10:11:33,699 simple_logger.py log_once [line:14] INFO Current_time:0
+2024-07-15 10:13:24,261 simple_logger.py log_once [line:28] INFO test_all_loss                 3.0562
+2024-07-15 10:13:24,262 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.0000
+2024-07-15 10:13:24,262 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0000
+2024-07-15 10:13:24,262 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.0000
+2024-07-15 10:13:24,262 simple_logger.py log_once [line:28] INFO val_all_loss                  3.0573
+2024-07-15 10:13:24,262 simple_logger.py log_once [line:28] INFO mean_val_all_loss             3.0563
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0085
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.0000
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.0000
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.0000
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0000
+2024-07-15 10:13:24,263 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0000
+2024-07-15 10:13:24,264 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0000
+2024-07-15 10:13:24,264 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.0000
+2024-07-15 10:13:24,264 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.0000
+2024-07-15 10:13:24,264 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0000
+2024-07-15 10:13:24,264 fedbase.py run [line:245] INFO Eval Time Cost:               110.5658s
+2024-07-15 10:14:27,645 fedbase.py run [line:253] INFO --------------Round 1--------------
+2024-07-15 10:14:27,645 simple_logger.py log_once [line:14] INFO Current_time:1
+2024-07-15 10:16:10,207 simple_logger.py log_once [line:28] INFO test_all_loss                 1.3347
+2024-07-15 10:16:10,207 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.0541
+2024-07-15 10:16:10,207 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0008
+2024-07-15 10:16:10,208 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.0126
+2024-07-15 10:16:10,208 simple_logger.py log_once [line:28] INFO val_all_loss                  1.3538
+2024-07-15 10:16:10,208 simple_logger.py log_once [line:28] INFO mean_val_all_loss             1.3625
+2024-07-15 10:16:10,208 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0969
+2024-07-15 10:16:10,208 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.0535
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.0579
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.0357
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0023
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0027
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0027
+2024-07-15 10:16:10,209 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.0136
+2024-07-15 10:16:10,210 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.0148
+2024-07-15 10:16:10,210 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0101
+2024-07-15 10:16:10,210 fedbase.py run [line:258] INFO Eval Time Cost:               102.5649s
+2024-07-15 10:17:00,908 fedbase.py run [line:253] INFO --------------Round 2--------------
+2024-07-15 10:17:00,909 simple_logger.py log_once [line:14] INFO Current_time:2
+2024-07-15 10:18:41,665 simple_logger.py log_once [line:28] INFO test_all_loss                 1.5367
+2024-07-15 10:18:41,665 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.1045
+2024-07-15 10:18:41,665 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0037
+2024-07-15 10:18:41,665 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.0274
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO val_all_loss                  1.5425
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO mean_val_all_loss             1.5515
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0667
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.1157
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.1202
+2024-07-15 10:18:41,666 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.0328
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0067
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0072
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0039
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.0320
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.0332
+2024-07-15 10:18:41,667 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0097
+2024-07-15 10:18:41,668 fedbase.py run [line:258] INFO Eval Time Cost:               100.7591s
+2024-07-15 10:20:00,059 fedbase.py run [line:253] INFO --------------Round 3--------------
+2024-07-15 10:20:00,060 simple_logger.py log_once [line:14] INFO Current_time:3
+2024-07-15 10:21:41,577 simple_logger.py log_once [line:28] INFO test_all_loss                 1.4105
+2024-07-15 10:21:41,577 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.2537
+2024-07-15 10:21:41,578 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0140
+2024-07-15 10:21:41,578 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.0736
+2024-07-15 10:21:41,578 simple_logger.py log_once [line:28] INFO val_all_loss                  1.4310
+2024-07-15 10:21:41,578 simple_logger.py log_once [line:28] INFO mean_val_all_loss             1.4337
+2024-07-15 10:21:41,578 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0196
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.2828
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.2875
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.0485
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0242
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0247
+2024-07-15 10:21:41,579 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0058
+2024-07-15 10:21:41,580 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.0862
+2024-07-15 10:21:41,580 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.0876
+2024-07-15 10:21:41,580 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0159
+2024-07-15 10:21:41,580 fedbase.py run [line:258] INFO Eval Time Cost:               101.5203s
+2024-07-15 10:22:38,148 fedbase.py run [line:253] INFO --------------Round 4--------------
+2024-07-15 10:22:38,149 simple_logger.py log_once [line:14] INFO Current_time:4
+2024-07-15 10:24:23,239 simple_logger.py log_once [line:28] INFO test_all_loss                 1.3837
+2024-07-15 10:24:23,239 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.3038
+2024-07-15 10:24:23,239 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0192
+2024-07-15 10:24:23,239 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.0876
+2024-07-15 10:24:23,240 simple_logger.py log_once [line:28] INFO val_all_loss                  1.3916
+2024-07-15 10:24:23,240 simple_logger.py log_once [line:28] INFO mean_val_all_loss             1.3839
+2024-07-15 10:24:23,240 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0489
+2024-07-15 10:24:23,240 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.3101
+2024-07-15 10:24:23,240 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.3242
+2024-07-15 10:24:23,241 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.1058
+2024-07-15 10:24:23,241 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0212
+2024-07-15 10:24:23,241 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0220
+2024-07-15 10:24:23,241 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0085
+2024-07-15 10:24:23,241 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.0938
+2024-07-15 10:24:23,242 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.0985
+2024-07-15 10:24:23,242 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0360
+2024-07-15 10:24:23,242 fedbase.py run [line:258] INFO Eval Time Cost:               105.0933s
+2024-07-15 10:25:19,410 fedbase.py run [line:253] INFO --------------Round 5--------------
+2024-07-15 10:25:19,411 simple_logger.py log_once [line:14] INFO Current_time:5
+2024-07-15 10:27:01,523 simple_logger.py log_once [line:28] INFO test_all_loss                 1.2641
+2024-07-15 10:27:01,524 simple_logger.py log_once [line:28] INFO test_mAP@.5                   0.4087
+2024-07-15 10:27:01,524 simple_logger.py log_once [line:28] INFO test_mAP@.75                  0.0382
+2024-07-15 10:27:01,524 simple_logger.py log_once [line:28] INFO test_mAP@.5:.95               0.1328
+2024-07-15 10:27:01,524 simple_logger.py log_once [line:28] INFO val_all_loss                  1.2702
+2024-07-15 10:27:01,524 simple_logger.py log_once [line:28] INFO mean_val_all_loss             1.2573
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO std_val_all_loss              0.0840
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO val_mAP@.5                    0.4031
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5               0.4253
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO std_val_mAP@.5                0.1724
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO val_mAP@.75                   0.0534
+2024-07-15 10:27:01,525 simple_logger.py log_once [line:28] INFO mean_val_mAP@.75              0.0571
+2024-07-15 10:27:01,526 simple_logger.py log_once [line:28] INFO std_val_mAP@.75               0.0308
+2024-07-15 10:27:01,526 simple_logger.py log_once [line:28] INFO val_mAP@.5:.95                0.1408
+2024-07-15 10:27:01,526 simple_logger.py log_once [line:28] INFO mean_val_mAP@.5:.95           0.1502
+2024-07-15 10:27:01,526 simple_logger.py log_once [line:28] INFO std_val_mAP@.5:.95            0.0748
+2024-07-15 10:27:01,526 fedbase.py run [line:258] INFO Eval Time Cost:               102.1157s
+2024-07-15 10:27:01,527 fedbase.py run [line:265] INFO =================End==================
+2024-07-15 10:27:01,527 fedbase.py run [line:266] INFO Total Time Cost:              927.8284s

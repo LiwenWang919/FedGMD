@@ -1,1 +1,1 @@
-# FedGMD
+# Pytorch implement of FedGMD
